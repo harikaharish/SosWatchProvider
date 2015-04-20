@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stealth Alert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="ConnectionEstablishedMsg">Alert App Connection established with RemotePeer</string>
+	<string name="help">Help</string>
+	<string name="change_pin">Change Pin</string>
+	<string name="settings_initial">Setup</string>
+	<string name="settings">Settings</string>	
+    <string-array name="alert_interval">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string name="phoneColumn">phone</string>
+    <string name="emailColumn">email</string>
+    <string name="smsmodeColumn">smsmode</string>
+    <string name="emailmodeColumn">emailmode</string>
+    <string name="frequencyColumn">frquency</string>
+    <string name="intervalColumn">interval</string>
+    <string name="invalidColumn">Invalid Value</string>
+</resources>

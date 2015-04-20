@@ -1,0 +1,68 @@
+<!--  RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED" >
+
+    <ListView
+        android:id="@+id/list_product"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/transparent"
+        android:dividerHeight="10dp"
+        android:drawSelectorOnTop="true"
+        android:footerDividersEnabled="false"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay" >
+    </ListView>
+
+</RelativeLayout-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.spfavorites.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/contacts_bg" >
+        
+        <!-- EditText
+            android:id="@+id/inputsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+            <requestFocus />
+        </EditText> -->
+        
+     <!--   <ListView
+            android:id="@+id/contactslistView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:drawSelectorOnTop="true"
+            android:paddingTop="12dip"       
+            android:layout_below="@+id/inputsearch"            
+            android:layout_alignParentTop="true" >
+        </ListView>  -->
+        
+        <ListView
+            android:id="@+id/contactslistView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:drawSelectorOnTop="true">
+            //android:paddingTop="12dip"    >    
+            //android:layout_below="@+id/inputsearch">            
+            //android:layout_alignParentTop="true" >
+        </ListView>
+
+    </RelativeLayout>
+
+ </FrameLayout>  
